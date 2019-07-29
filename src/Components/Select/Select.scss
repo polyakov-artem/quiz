@@ -1,0 +1,25 @@
+.select {
+  margin-bottom: 1rem;
+  &__control {
+    width: 100%;
+    display: block;
+    height: 2.5rem;
+    padding: 5px 15px;
+    width: 100%;
+    border: 1px solid #85ceff;
+    background-color: #dff2ff;
+    color: #777777;
+  }
+
+  &__control:focus {
+    border: 1px solid #0096fb;
+  }
+
+  &__label {
+    display: inline-block;
+    margin-bottom: 4px;
+  }
+  &__message {
+    color: red;
+  }
+}

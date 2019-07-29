@@ -1,0 +1,14 @@
+.auth-page{
+  min-height: 100vh;
+  padding: 20px;
+  padding-top: 50px;
+  flex-direction: column;
+  display: flex;
+  align-items: center;
+  background: linear-gradient(#cef2fa,#59bfef);
+  
+  &__title{
+    color: #fff;
+    text-align: center;
+  }
+}

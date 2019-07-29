@@ -1,0 +1,14 @@
+.quiz-page{
+  padding: 0 20px;
+  min-height: 100vh;
+  padding-top: 50px;
+  flex-direction: column;
+  display: flex;
+  align-items: center;
+  background: linear-gradient(0deg, #3A4BFF 0%, #6976FF 100%);
+}
+
+.quiz-page__header{
+  color: #fff;
+}
+

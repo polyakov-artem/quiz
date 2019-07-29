@@ -1,0 +1,19 @@
+.Answer{
+  display: block;
+  border: 1px solid #ffffff;
+  border-radius: 3px;
+  padding: 5px;
+  margin: 10px 0;
+}
+
+.Answer:hover{
+  background: #afdcff;
+}
+
+.Answer_success{
+  background: #3eff93;
+}
+
+.Answer_fail{
+  background: #ff4830;
+}

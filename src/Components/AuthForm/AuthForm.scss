@@ -1,0 +1,39 @@
+.auth-form{
+  background: #F2FAFF;
+  box-shadow: 2px 2px 2px rgba(0,0,0,0.5);
+  padding: 20px;
+  border-radius: 10px;
+  max-width: 600px;
+  width: 100%;
+  display: block;
+
+  &__btn{
+    &:not(:last-child){
+      margin-right: 1rem;
+    }
+  }
+
+  &__buttons{
+    margin-top: 2.3rem;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+
+  &__message{
+    text-align: center;
+    color: red;
+  }
+}
+
+@media (max-width: 400px) {
+  .auth-form{
+    &__btn{
+      width: 100%;
+      &:not(:last-child){
+        margin-right: 0;
+        margin-bottom: 1rem
+      }
+    }
+  }
+}

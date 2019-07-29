@@ -1,0 +1,43 @@
+.quiz-item{
+  color: #fff;
+  
+  &__question {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  &__answer{
+    border: 1px solid #fff;
+    margin-bottom: 1rem;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+
+    & span {
+      display: inline-block;
+      margin-right: 0.5rem;
+      &:after {
+        content: '.';
+      };
+    }
+
+    &_is_incorrect{
+      animation: incorrect  0.15s infinite ease-in alternate;
+    }
+
+    &_is_correct{
+      animation: correct  0.15s infinite ease-in alternate;
+    }
+  }
+
+}
+
+@keyframes incorrect {
+  from {background-color: #FFFFFF;}
+  to {background-color: #FF3C3C}
+}
+
+@keyframes correct {
+  from {background-color: #FFFFFF}
+  to {background-color: #38E85C}
+}

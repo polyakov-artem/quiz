@@ -1,0 +1,52 @@
+.quiz-results{
+  color: #fff;
+
+  &__title{
+    margin-top: 0;
+  }
+  
+  &__question {
+    margin-bottom: 1rem;
+
+    & span {
+      display: inline-block;
+      margin-right: 0.5rem;
+    }
+  }
+
+  &__btn{
+    &:not(:last-child){
+      margin-right: 1rem;
+    }
+  }
+
+  &__buttons{
+    margin-top: 2.3rem;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+
+  &__icon-success{
+    margin-left: 0.5rem;
+    color: #38E85C
+  }
+
+  &__icon-fail {
+    margin-left: 0.5rem;
+    color: #FF3C3C
+  }
+}
+
+
+@media (max-width: 500px) {
+  .quiz-results{
+    &__btn{
+      width: 100%;
+      &:not(:last-child){
+        margin-right: 0;
+        margin-bottom: 1rem
+      }
+    }
+  }
+}

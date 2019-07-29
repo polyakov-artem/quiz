@@ -1,0 +1,35 @@
+.quiz-list-page {
+  min-height: 100vh;
+  padding-top: 50px;
+  flex-direction: column;
+  display: flex;
+  align-items: center;
+  background: linear-gradient(#fd8355 0%, #f0576c 100%);
+
+  &__header {
+    color: #fff;
+  }
+
+  &__loader {
+    display: block;
+    margin: 0 auto
+  }
+}
+
+
+.quiz-list {
+
+  &__item {
+    margin-bottom: 10px;
+    text-align: center;
+  }
+
+  &__link {
+    text-decoration: none;
+    color: #fff;
+  }
+
+  &__link :hover {
+    color: #333;
+  }
+}

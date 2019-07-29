@@ -1,0 +1,26 @@
+.toggle-btn {
+  position: fixed;
+  top: 0;
+  left: 0;
+  font-size: 20px;
+  cursor: pointer;
+  color: #fff;
+  z-index: 10;
+  transition: 0.3s all ease-in;
+  background: #000;
+  width: 40px;
+  height: 40px;
+  text-align: center;
+  opacity: 0.5;
+  &:before{
+    line-height: 40px;
+    font-size: 20px
+  }
+
+  &_is_active{
+    left: 298px;
+    opacity: 1
+  }
+}
+
+

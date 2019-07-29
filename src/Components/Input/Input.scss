@@ -1,0 +1,30 @@
+.input {
+  margin-bottom: 1.3rem;
+  position: relative;
+  &__control {
+    width: 100%;
+    display: block;
+    height: 2.5rem;
+    padding: 5px 15px;
+    width: 100%;
+    border: 1px solid #85ceff;
+    background-color: #dff2ff;
+    color: #777777;
+  }
+
+  &__control:focus {
+    border: 1px solid #0096fb;
+  }
+
+  &__label {
+    display: inline-block;
+  }
+  &__message {
+    color: red;
+    position: absolute;
+    display: block;
+    left: 0;
+    top: 4rem;
+    font-size: 0.8rem;
+  }
+}
